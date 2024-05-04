@@ -18,7 +18,7 @@ const log = (message: string, level: LogLevel = 'info') => {
 };
 
 log('this has an explicit debug log level', 'debug');
-log('this has an implicit info debug level');
+log('this has an implicit info log level');
 ```
 
 You can do exactly this kind of thing for generic types! This is yet another parallel between functions and generic types!
